@@ -20,6 +20,7 @@ public class LoginClass extends BaseClass
 		l.clickSubmit();
 		String exptitle="Logged In Successfully | Practice Test Automation";
 		String actitle=driver.getTitle();
+		//Assertion 
 		Assert.assertEquals(exptitle, actitle);
 		
 	}
