@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-09T21:43:22 IST" name="travel1" finished-at="2025-12-09T21:43:37 IST" duration-ms="14634">
+    <groups>
+    </groups>
+    <test started-at="2025-12-09T21:43:22 IST" name="com.travel1.testcase" finished-at="2025-12-09T21:43:37 IST" duration-ms="14634">
+      <class name="com.travel1.testcase.LoginClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.travel1.testcase.LoginClass@35d019a3]" started-at="2025-12-09T21:43:23 IST" name="setup" finished-at="2025-12-09T21:43:33 IST" duration-ms="10055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.travel1.testcase.LoginClass@35d019a3]" started-at="2025-12-09T21:43:33 IST" name="login" finished-at="2025-12-09T21:43:36 IST" duration-ms="3399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.travel1.testcase.LoginClass@35d019a3]" started-at="2025-12-09T21:43:36 IST" name="logout" finished-at="2025-12-09T21:43:37 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.travel1.testcase.LoginClass -->
+    </test> <!-- com.travel1.testcase -->
+  </suite> <!-- travel1 -->
+</testng-results>

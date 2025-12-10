@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="travel1">
+<listeners>
+<listener class-name="com.travel1.utlities.ExtentreportListeners"></listener>
+</listeners>
+  <test thread-count="5" name="com.travel1.testcase">
+    <classes>
+      <class name="com.travel1.testcase.LoginClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
